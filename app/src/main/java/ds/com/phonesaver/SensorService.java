@@ -103,7 +103,7 @@ public class SensorService extends Service {
         //initialize the TimerTask's job
         initializeTimerTask();
 
-        //schedule the timer, to wake up every 1 second
+        //schedule the timer, to wake up every 5 second
         timer.schedule(timerTask, 1000, 5000); //
     }
 
