@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PhoneSaver</string>
+    <string name="intro">This App works in conjunction with Tasker to shut down phone.</string>
+</resources>
