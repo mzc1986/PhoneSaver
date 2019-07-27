@@ -1,9 +1,9 @@
 # PhoneSaver
 
-This app turns off a device after every 5 minutes IF the device is not in a CALL. It starts itselft on BOOT and keeps running itself in the backround as a Service.
+This app turns off a device after every 5 minutes IF the device is not in a CALL. It starts itselft on BOOT and keeps running in the backround as a Service.
 The app works in relation with Tasker automation app w/ AutoInput plugin. It is necessary to create a Tasker Task named "phonesaver" which will do the actual phone shut down based on Power Dialogue selection.
 
-Starting from Android O it is required to take in App permission from user to listed to a CALL broadcast. 
+Starting from Android O it is required to take in App permission from user to listen to a CALL broadcast. 
 Additionally following permission is needed for Tasker App external Access : 
 
 <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
