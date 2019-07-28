@@ -6,12 +6,12 @@ The app works in relation with Tasker automation app w/ AutoInput plugin. It is 
 Starting from Android O it is required to take in App permission from user to listen to a CALL broadcast. 
 Additionally following permission is needed for Tasker App external Access : 
 
-<uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS"
 
 To invoke Takser Tasks, we need to follow the procedures described here : 
 https://tasker.joaoapps.com/invoketasks.html
 
-A simple sharedPreferences varialbe is used across Android Services and Broadcast Receivers to check if the user is in CALL or not. 
+A simple sharedPreferences variable is used across Android Services and Broadcast Receivers to check if the user is in CALL or not. 
 
-To keep running a neverending service following example is used: 
+To keep running a never-ending service following example is used: 
 https://fabcirablog.weebly.com/blog/creating-a-never-ending-background-service-in-android#
