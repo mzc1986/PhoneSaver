@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
         } else {
 
         }
+
+        moveTaskToBack(true);
     }
 
     private boolean isMyServiceRunning(Class<?> serviceClass) {
