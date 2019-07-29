@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        //this will move the Activity in the background
         moveTaskToBack(true);
     }
 
